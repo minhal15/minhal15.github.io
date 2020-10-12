@@ -1,0 +1,53 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    /* font-family: 'Arvo', serif; */
+    background: url(laptop.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.header {
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 110px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.buffer {
+    height: 24rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #03948f;
+    border-color:  #03948f;
+}
+
+.btn-primary:hover {
+    background-color: #055e5b;
+    border-color:  #055e5b;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
